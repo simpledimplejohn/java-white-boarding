@@ -23,11 +23,11 @@ public class NodeDriver {
 //		newNode.printAll();
 //		System.out.println("printing left side");
 //		printLeft(newNode);
-//		leftViewOfTree(newNode, 0); // needs level so it can pass it through
+		leftViewOfTree(newNode, 0); // needs level so it can pass it through
 		
 //		printAllNodesUnOrdred(newNode);
 //		printNodesOrdered(newNode);
-		printLeftOrdered(newNode);
+//		printLeftOrdered(newNode);
 		
 	}
 	

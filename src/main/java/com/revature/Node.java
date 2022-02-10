@@ -1,4 +1,4 @@
-package com.revature.binarytrees;
+package com.revature;
 
 public class Node {
 	Node left;
@@ -7,15 +7,16 @@ public class Node {
 	Node(int data) {
 		this.data = data;
 	}
+	
 	public void add(int number) {
-		if(data >= number) {
+		if(number <= data) {
 			if(left == null) {
 				left = new Node(number);
 			} else {
 				left.add(number);
 			}
 		}
-		if(data <= number) {
+		if(number >= data) {
 			if(right == null) {
 				right = new Node(number);
 			} else {
