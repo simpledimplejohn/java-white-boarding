@@ -13,13 +13,13 @@ public class Queues {
 		q.add(8);
 		q.add(12);
 		
-		System.out.println(q);
+//		System.out.println(q);
 
 		
-//		q.forEach(e -> () System.out.println(e));
-//		for(Integer i : q) {
-//			System.out.println(i);
-//		}
+		q.forEach((e) -> System.out.println(e));
+		for(Integer i : q) {
+			System.out.println(i);
+		}
 		// removes next person from the line (also returns them)
 		System.out.println(q.poll());
 		System.out.println(q);
