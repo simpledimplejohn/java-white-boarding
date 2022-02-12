@@ -12,12 +12,7 @@ public class Driver {
 		newMap.put("Kevin", 47);
 		newMap.put("George", 49);
 		newMap.put("Bread", 42);
-		
-//		for(String s : newMap.get(s)) {
-//			System.out.println(s);
-//		}
-		
-		newMap.forEach((k,v) -> System.out.println("key is " +k+ " value is " + v));
+
 		
 	}
 	
