@@ -13,9 +13,7 @@ public class Cat implements Printable {
 		
 	}
 	
-	static void printThing(Printable thing) {
-		thing.print();
-	}
+
 	
 
 }
