@@ -7,14 +7,18 @@ import java.util.stream.Collectors;
 public class Practice {
 
 	public static void main(String[] args) {
-		List<String> names = Arrays.asList("John", "Fred", "Bob", "Tom", "Kevin", "Phil", "Carl","Frank" );
-		
-		List<String> sortedNames = names.stream()
-				.sorted()
-				.collect(Collectors.toList());
-		System.out.println(sortedNames);
+		List<String> nameList = Arrays.asList("Bob", "Kevin", "Jack", "Fred", "Mark", "Doug", "Arron", "George");
 		
 		
+//		List<String> lowerName = nameList.stream()
+//			.map(n->n.toLowerCase())
+//			.collect(Collectors.toList() );
+//		System.out.println(nameList);
+//		System.out.println(lowerName);
+		
+		nameList.stream()
+			.filter(s -> s.contains("a"))
+			.forEach(s-> System.out.println(s));
 		
 	}
 
